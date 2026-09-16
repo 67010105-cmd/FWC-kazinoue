@@ -1,0 +1,16 @@
+.drop {
+    position: relative;
+}
+
+.D {
+    display: none;
+    position: absolute;
+}
+
+img {
+    width: 300px;
+}
+
+.drop:hover .D{
+    display: block;
+}
