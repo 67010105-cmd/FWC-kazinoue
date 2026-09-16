@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.first-cell {
+    background-color: #a0cc0d;
+    width: 50%;
+}
+
+.second-cell {
+    background-color: #d26841;
+    width: 50%;
+}
