@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+.card {
+    width: 250px;
+    margin: 20px auto;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 4px 8px black;
+}
+
+.invisible-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invisible-table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    color: gray;
+    margin: 0;
+}
+
+.socials img {
+    width: 20px;
+    margin: 0 5px;
+}
+
+.contact-btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
