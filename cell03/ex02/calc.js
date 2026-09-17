@@ -10,7 +10,6 @@ document.getElementById('calcForm').addEventListener('submit', function(e) {
     const rightStr = document.getElementById('right').value.trim();
     const op = document.getElementById('op').value;
 
-    // เช็กว่าเป็นจำนวนเต็มบวกหรือศูนย์เท่านั้น (ห้ามมีทศนิยม หรือติดลบ)
     if (!/^\d+$/.test(leftStr) || !/^\d+$/.test(rightStr)) {
         alert('Error :(');
         return;
@@ -19,7 +18,6 @@ document.getElementById('calcForm').addEventListener('submit', function(e) {
     const left = parseInt(leftStr, 10);
     const right = parseInt(rightStr, 10);
 
-    // เช็กกรณีหารหรือมอดุโลด้วย 0
     if ((op === '/' || op === '%') && right === 0) {
         alert("It's over 9000!");
         console.log("It's over 9000!");
